@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "dockertest",
+    "password": "dockertest",
+    "database": "dockertest",
+    "host": "db",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "dockertest",
+    "password": "dockertest",
+    "database": "dockertest",
+    "host": "db",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "docker",
+    "password": "docker",
+    "database": "docker",
+    "host": "db",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
